@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.header-section {
+}
+
+.table-section {
+  display: flex;
+  justify-content: center;
+}

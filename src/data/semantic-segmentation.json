@@ -1,0 +1,813 @@
+[
+  {
+    "dataset": "Cityscapes",
+    "architecture": "Unet",
+    "backbone": "UNet-S5-D16",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 69.1,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "PSPNet",
+    "backbone": "R-50-D8",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 78.55,
+    "iterations": 80000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "PSPNet",
+    "backbone": "R-101-D8",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 79.76,
+    "iterations": 80000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "PSPNet",
+
+    "backbone": "R-18-D8",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 74.87,
+    "iterations": 80000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "DeepLabV3",
+
+    "backbone": "R-50-D8",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 79.32,
+    "iterations": 80000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "DeepLabV3",
+
+    "backbone": "R-101-D8",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 80.2,
+    "iterations": 80000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "DeepLabV3",
+
+    "backbone": "R-18-D8",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 76.7,
+    "iterations": 80000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "DeepLabV3+",
+
+    "backbone": "R-50-D8",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 80.09,
+    "iterations": 80000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "DeepLabV3+",
+
+    "backbone": "R-101-D8",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 80.97,
+    "iterations": 80000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "DeepLabV3+",
+
+    "backbone": "R-18-D8",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 76.89,
+    "iterations": 80000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "SegFormer",
+    "backbone": "MIT-B0",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 69.06,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B1",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 73.09,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B2",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 75.98,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B3",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 77.8,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B4",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 78.26,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B5",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 79.17,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B0",
+    "cropSize": "1024x1024",
+    "trained": true,
+    "bestMiou": 76.54,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B1",
+    "cropSize": "1024x1024",
+    "trained": true,
+    "bestMiou": 78.56,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B2",
+    "cropSize": "1024x1024",
+    "trained": true,
+    "bestMiou": 81.08,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B3",
+    "cropSize": "1024x1024",
+    "trained": true,
+    "bestMiou": 81.94,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B4",
+    "cropSize": "1024x1024",
+    "trained": true,
+    "bestMiou": 81.89,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B5",
+    "cropSize": "1024x1024",
+    "trained": true,
+    "bestMiou": 82.25,
+    "iterations": 160000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "InternImage",
+
+    "backbone": "InternImage-T",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 82.58,
+    "iterations": 0
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "InternImage",
+
+    "backbone": "InternImage-S",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 82.74,
+    "iterations": 0
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "InternImage",
+
+    "backbone": "InternImage-B",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 83.18,
+    "iterations": 0
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "InternImage",
+
+    "backbone": "InternImage-L",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 83.68,
+    "iterations": 0
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "InternImage",
+
+    "backbone": "InternImage-XL",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 83.62,
+    "iterations": 0
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "Mask2Former",
+
+    "backbone": "R-50-D32",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 80.44,
+    "iterations": 90000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "Mask2Former",
+
+    "backbone": "R-101-D32",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 80.8,
+    "iterations": 90000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "Mask2Former",
+
+    "backbone": "Swin-T",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 81.71,
+    "iterations": 90000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "Mask2Former",
+
+    "backbone": "Swin-S",
+    "cropSize": "512x1024",
+    "trained": true,
+    "bestMiou": 82.52,
+    "iterations": 90000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "Mask2Former",
+
+    "backbone": "Swin-B (in 1K)",
+    "cropSize": "512x1024",
+    "trained": false,
+    "bestMiou": 0,
+    "iterations": 0
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "DINO",
+
+    "backbone": "R50",
+    "cropSize": "not given?",
+    "trained": true,
+    "bestMiou": 79.8,
+    "iterations": 90000
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "(Mask) DINO",
+    "backbone": "R101",
+    "cropSize": "512x1024",
+    "trained": false,
+    "bestMiou": 0,
+    "iterations": 0
+  },
+  {
+    "dataset": "Cityscapes",
+    "architecture": "ONE PEACE",
+
+    "backbone": "-",
+    "cropSize": "512x1024",
+    "trained": false,
+    "bestMiou": 0,
+    "iterations": 0
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "Unet",
+    "backbone": "mmsegmentation",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 1.34,
+    "iterations": 40000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "PSPNet",
+
+    "backbone": "R-50-D8",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 42.48,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "PSPNet",
+
+    "backbone": "R-101-D8",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 45.35,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "DeepLabV3",
+
+    "backbone": "R-50-D8",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 42.66,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "DeepLabV3",
+
+    "backbone": "R-101-D8",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 45.0,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "DeepLabV3+",
+
+    "backbone": "R-50-D8",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 78.62,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "DeepLabV3+",
+
+    "backbone": "R-101-D8",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 76.81,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B0",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 37.41,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B1",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 40.97,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B2",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 45.58,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B3",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 47.82,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B4",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 48.46,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B5",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 49.13,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "InternImage",
+
+    "backbone": "InternImage-T",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 47.9,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "InternImage",
+
+    "backbone": "InternImage-S",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 50.1,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "InternImage",
+
+    "backbone": "InternImage-B",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 50.8,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "InternImage",
+
+    "backbone": "InternImage-L",
+    "cropSize": "640x640",
+    "trained": true,
+    "bestMiou": 53.9,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "InternImage",
+
+    "backbone": "InternImage-XL",
+    "cropSize": "640x640",
+    "trained": true,
+    "bestMiou": 55.0,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "InternImage",
+
+    "backbone": "InternImage-H",
+    "cropSize": "896x896",
+    "trained": true,
+    "bestMiou": 59.9,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "Mask2Former",
+
+    "backbone": "R-50-D32",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 47.87,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "Mask2Former",
+
+    "backbone": "R-100-D32",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 48.6,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "Mask2Former",
+
+    "backbone": "SWIN-T",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 48.66,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "Mask2Former",
+
+    "backbone": "SWIN-S",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 51.24,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "Mask2Former",
+
+    "backbone": "SWIN-B",
+    "cropSize": "640x640",
+    "trained": true,
+    "bestMiou": 52.44,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "Mask2Former",
+    "backbone": "Swin-B (in 1K)",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 47.55,
+    "iterations": 155000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "DINO",
+
+    "backbone": "R50",
+    "cropSize": "-",
+    "trained": true,
+    "bestMiou": 48.7,
+    "iterations": 160000
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "DINOv2",
+
+    "backbone": "-",
+    "cropSize": "-",
+    "trained": true,
+    "bestMiou": 0,
+    "iterations": 0
+  },
+  {
+    "dataset": "ADE20K",
+    "architecture": "ONE PEACE",
+
+    "backbone": "G-896",
+    "cropSize": "896x896",
+    "trained": true,
+    "bestMiou": 0,
+    "iterations": 0
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "Unet",
+    "backbone": "mmsegmentation",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 29.6,
+    "iterations": 160000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "PSPNet",
+
+    "backbone": "R-50-D8",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 77.29,
+    "iterations": 40000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "PSPNet",
+
+    "backbone": "R-101-D8",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 78.52,
+    "iterations": 40000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "DeepLabV3",
+
+    "backbone": "R-50-D8",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 77.68,
+    "iterations": 40000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "DeepLabV3",
+
+    "backbone": "R-101-D8",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 77.92,
+    "iterations": 40000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "DeepLabV3+",
+
+    "backbone": "R-50-D8",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 76.81,
+    "iterations": 40000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "DeepLabV3+",
+
+    "backbone": "R-101-D8",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 78.62,
+    "iterations": 40000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "SegFormer",
+    "backbone": "MIT-B0",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 61.25,
+    "iterations": 40000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B1",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 66.67,
+    "iterations": 40000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B2",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 72.07,
+    "iterations": 40000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B3",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 71.57,
+    "iterations": 32000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B4",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 73.49,
+    "iterations": 40000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B5",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 74.01,
+    "iterations": 40000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B0",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 69.54,
+    "iterations": 160000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B1",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 74.71,
+    "iterations": 160000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B2",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 78.41,
+    "iterations": 160000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B3",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 80.74,
+    "iterations": 160000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B4",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 80.5,
+    "iterations": 160000
+  },
+  {
+    "dataset": "PASCAL VOC 2012",
+    "architecture": "SegFormer",
+
+    "backbone": "MIT-B5",
+    "cropSize": "512x512",
+    "trained": true,
+    "bestMiou": 81.37,
+    "iterations": 160000
+  }
+]

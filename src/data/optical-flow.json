@@ -1,0 +1,47 @@
+[
+  {
+    "rank": 1,
+    "architecture": "FastFlownet",
+    "venue": "FastFlowNet: A Lightweight Network for Fast Optical Flow Estimation",
+    "cosPgdEpe": 3.601043397,
+    "pcfaEpe": 37.16159878,
+    "pgdEpe": 451.2566288,
+    "checkpoint": "kitti"
+  },
+  {
+    "rank": 2,
+    "architecture": "LiteFlowNet",
+    "venue": "LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation",
+    "cosPgdEpe": 6.390774414,
+    "pcfaEpe": 35.16507998,
+    "pgdEpe": 399.9374828,
+    "checkpoint": "kitti"
+  },
+  {
+    "rank": 3,
+    "architecture": "LiteFlowNet",
+    "venue": "CRAFT: Cross-Attentional Flow Transformer for Robust Optical Flow",
+    "cosPgdEpe": 7.244138466,
+    "pcfaEpe": 40.19599378,
+    "pgdEpe": 106.2748625,
+    "checkpoint": "kitti"
+  },
+  {
+    "rank": 4,
+    "architecture": "GMA",
+    "venue": "Learning to Estimate Hidden Motions with Global Motion Aggregation",
+    "cosPgdEpe": 8.387390162,
+    "pcfaEpe": 111.8244362,
+    "pgdEpe": 240.5678405,
+    "checkpoint": "kitti"
+  },
+  {
+    "rank": 5,
+    "architecture": "LLA-Flow",
+    "venue": "LLA-FLOW: A Lightweight Local Aggregation on Cost Volume for Optical Flow Estimation",
+    "cosPgdEpe": 8.738821797,
+    "pcfaEpe": 51.87181805,
+    "pgdEpe": 138.6896362,
+    "checkpoint": "kitti"
+  }
+]
